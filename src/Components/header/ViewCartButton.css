@@ -1,0 +1,33 @@
+.view-cart-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.view-cart-button-2 {
+    background-color: rgb(0, 90, 158);
+    color: white;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.view-cart-button-2 :hover {
+    background-color: rgba(0, 140, 158, 0.753);
+}
+
+@media only screen and (max-width:500px){
+    .view-cart-button{
+        font-size: small;
+    }
+    .view-cart-button-1{
+        max-height: fit-content;
+        max-width: fit-content;
+        font-size: small;
+    }
+    .view-cart-button-2{
+
+        width:40px;
+        border-radius: 10px;
+    }
+    
+}

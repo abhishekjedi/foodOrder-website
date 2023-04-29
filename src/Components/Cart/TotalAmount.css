@@ -1,0 +1,15 @@
+.total-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width:300px) {
+    .amt{
+        font-size: medium;
+    }
+    .qty{
+        font-size: medium;
+    }
+}
